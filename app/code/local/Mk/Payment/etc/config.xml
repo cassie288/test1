@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    Mk
+ * @package     Mk_Payment
+ * @copyright   Copyright (c) 2019
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+-->
+<config>
+    <modules>
+        <Mk_Payment>
+            <version>1.0.0</version>
+        </Mk_Payment>
+    </modules>
+ 
+    <global>
+        <helpers>
+            <mkpayment>
+                <class>Mk_Payment_Helper</class>
+            </mkpayment>
+        </helpers>
+        <models>
+            <mkpayment>
+                <class>Mk_Payment_Model</class>
+            </mkpayment>
+        </models>
+    </global>
+    
+    <default>
+        <payment>
+            <mkpayment>
+                <active>1</active>
+                <model>mkpayment/method_mkpayment</model>
+                <order_status>processing</order_status>
+                <title>MK Payment Method</title>
+                <payment_action>authorize_capture</payment_action>
+                <gateway_url>http://www.mocky.io/v2/5c46b1c13100000e0005f401</gateway_url>
+            </mkpayment>
+        </payment>
+    </default>
+</config>
