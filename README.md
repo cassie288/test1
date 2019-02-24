@@ -3,7 +3,7 @@ Custom payment module enabled in admin panel only.
 The payment method will need to call the Restful API endpoint to process the payment.
 
 # Installation (Manual)
-* Download the [payment module](https://github.com/sirkyrem/test1/archive/master.zip), unpack it and upload its contents to a root directory. You should be able to see the module in app/code/local/Mk and app/etc/modules/Mk_Payment.xml
+* Download the [payment module](https://github.com/cassie288/test1/archive/master.zip), unpack it and upload its contents to a root directory. You should be able to see the module in app/code/local/Mk and app/etc/modules/Mk_Payment.xml
 * Flush cache storage in Cache Management
 
 # Configuration
