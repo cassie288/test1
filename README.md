@@ -20,3 +20,11 @@ Configuration is located at System > Configuration > Sales > Payment Methods > M
 * There is no option to enable the payment method in frontend.
 * The mock API is always returning the same values even if the values passed are different.
 * "txn_ref" from the API is saved in sales_flat_order_payment.last_trans_id
+
+# Screenshots
+* Payment method in create order in backend
+  ![11](https://raw.githubusercontent.com/cassie288/test1/master/screenshots/1.png) 
+* Chosen custom payment method in order page and the txn_ref response
+  ![11](https://raw.githubusercontent.com/cassie288/test1/master/screenshots/2.png) 
+* Configuration
+  ![11](https://raw.githubusercontent.com/cassie288/test1/master/screenshots/3.png) 
